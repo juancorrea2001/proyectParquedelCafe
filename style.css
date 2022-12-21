@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contMap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contMap svg{
+    width: 100%;
+    height: auto;
+}
+.contMap .ModalInfo{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+.contMap .ModalInfoVisible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 700px;
+}
