@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+  
 }
 .contMap{
     width: 100%;
@@ -13,17 +15,141 @@
     width: 100%;
     height: auto;
 }
-.contMap .ModalInfo{
+.ModalInfo{
     /* background-color: rgba(0, 0, 0, 0.905); */
     display: none;
     /* color: white; */
 }
-.contMap .ModalInfoVisible{
+.ModalInfo2{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+
+.ModalInfo6{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+.ModalInfo3{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+.ModalInfo4{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+.ModalInfo5{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+.ModalInfo7{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+.ModalInfo8{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
+.ModalInfoVisible{
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.905);
     color: white;
     flex-direction: column;
-    height: 700px;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+}
+.ModalInfoVisible2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
+}
+.ModalInfoVisible3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
+}
+.ModalInfoVisible4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
+}
+.ModalInfoVisible5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
+}
+.ModalInfoVisible6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
+}
+.ModalInfoVisible7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
+}
+.ModalInfoVisible8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
 }
