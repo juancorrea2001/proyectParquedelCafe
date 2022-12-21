@@ -1,12 +1,13 @@
 const mexico = document.getElementById("mexico")
 const colombia = document.getElementById("colombia")
 const argentina = document.getElementById("argentina")
-const españa = document.getElementById("españa")
+const españa = document.getElementById("spain")
 const brazil = document.getElementById("brazil")
 const russia = document.getElementById("russia")
 const australia = document.getElementById("australia")
+const usa = document.getElementById("usa")
 // document.getElementById("mexico").setAttribute("fill", "red")
-const modalInfo = document.getElementById("ModalInfo")
+const modalInfo9 = document.getElementById("ModalInfo9")
 const modalInfo2 = document.getElementById("ModalInfo2")
 const modalInfo3 = document.getElementById("ModalInfo3")
 const modalInfo4 = document.getElementById("ModalInfo4")
@@ -56,5 +57,10 @@ australia.addEventListener('click', selection7)
 function selection7() {
     australia.setAttribute("fill", "brown")
     modalInfo7.classList.add("ModalInfoVisible7")
+}
 
+usa.addEventListener('click' , selection9)
+function selection9() {
+    usa.setAttribute("fill", "pink")
+    modalInfo9.classList.add("ModalInfoVisible9")
 }
