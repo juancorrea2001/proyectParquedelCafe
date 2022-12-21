@@ -46,6 +46,11 @@
     display: none;
     /* color: white; */
 }
+.ModalInfo9{
+    /* background-color: rgba(0, 0, 0, 0.905); */
+    display: none;
+    /* color: white; */
+}
 .ModalInfo7{
     /* background-color: rgba(0, 0, 0, 0.905); */
     display: none;
@@ -140,8 +145,21 @@
     width: 1400px;
     gap: 10px;
     text-align: center;
+    text-align: justify;
 }
 .ModalInfoVisible8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.905);
+    color: white;
+    flex-direction: column;
+    height: 200px;
+    width: 1400px;
+    gap: 10px;
+    text-align: center;
+}
+.ModalInfoVisible9{
     display: flex;
     justify-content: center;
     align-items: center;
