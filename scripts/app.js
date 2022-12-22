@@ -21,6 +21,7 @@ const modalInfo6 = document.getElementById("ModalInfo6")
 const modalInfo7 = document.getElementById("ModalInfo7")
 const modalInfo8 = document.getElementById("ModalInfo8")
 
+
 //btn close
 // const closeModal = document.getElementById("closeModal")
 // closeModal.addEventListener("click", closeModalPais)
