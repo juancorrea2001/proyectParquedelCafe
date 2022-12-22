@@ -5,6 +5,19 @@
 
 }
 
+.modalinvisible{
+    visibility: hidden;
+}
+.modalinvisible2{
+    visibility: hidden;
+}
+.modalinvisible3{
+    visibility: hidden;
+}
+.modalinvisible4{
+    visibility: hidden;
+}
+
 .buttons_global_StyleTatto {
     color: white;
     border: 2px solid white;
@@ -122,6 +135,23 @@
 
 .contEstrellasOceania{
     transform: translate(50px , -35px);
+}
+
+#closemodal{
+    margin-left: 18rem;
+    transform: translate(0px , 36px);
+}
+#closemodal2{
+    margin-left: 18rem;
+    transform: translate(0px , 138px);
+}
+#closemodal3{
+    margin-left: 18rem;
+    transform: translate(0px , 36px);
+}
+#closemodal4{
+    margin-left: 18rem;
+    transform: translate(30px , 43px);
 }
 
 .contMap {

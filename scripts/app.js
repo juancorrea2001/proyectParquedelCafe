@@ -27,6 +27,10 @@ const oceania2 = document.getElementById("oceania2")
 const oceania3 = document.getElementById("oceania3")
 const europa2 = document.getElementById("europa2")
 const europa3 = document.getElementById("europa3")
+const closemodal = document.getElementById("closemodal")
+const closemodal2 = document.getElementById("closemodal2")
+const closemodal3 = document.getElementById("closemodal3")
+const closemodal4 = document.getElementById("closemodal4")
 //btn close
 // const closeModal = documnt.getElementById("closeModal")
 // closeModal.addEventListener("click", closeModalPais)
@@ -98,6 +102,36 @@ function select5() {
     americaNort.setAttribute("fill", "blue")
     modalInfo3.classList.add("ModalInfoVisible3")
 
+}
+
+closemodal.addEventListener('click', selected)
+function selected() {
+    americaNort10.setAttribute("fill","black")
+    americaNort9.setAttribute("fill","black")
+    americaNort8.setAttribute("fill","black")
+    americaNort3.setAttribute("fill" , "black")
+    americaNort2.setAttribute("fill", "black")
+    americaNort.setAttribute("fill", "black")
+    modalInfo3.classList.add("modalinvisible")
+}
+closemodal2.addEventListener('click', selected2)
+function selected2() {
+    europa3.setAttribute("fill","black")
+    europa2.setAttribute("fill","black")
+    europa.setAttribute("fill", "black")
+    modalInfo4.classList.add("modalinvisible2")
+}
+closemodal3.addEventListener('click', selected3)
+function selected3() {
+    oceania3.setAttribute("fill","black")
+    oceania2.setAttribute("fill","black")
+    oceania.setAttribute("fill", "black")
+    modalInfo5.classList.add("modalinvisible3")
+}
+closemodal4.addEventListener('click', selected4)
+function selected4() {
+    americasur.setAttribute("fill", "black")
+    modalInfo2.classList.add("modalinvisible4")
 }
 
 // brazil.addEventListener('click', seleccion5)
