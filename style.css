@@ -34,7 +34,7 @@
     width: 230px;
     text-align: center;
     cursor: pointer;
-
+    
 
 }
 
@@ -55,6 +55,7 @@
     bottom: 0;
     transform: skewX(-45deg) scale(0, 1);
     transition: all 0.2s ease;
+    
 }
 
 .buttons_global_StyleTatto:hover::after {
@@ -110,6 +111,11 @@
 .contButton {
     display: flex;
     justify-content: center;
+    text-decoration: none;
+}
+
+.ancla{
+    text-decoration: none;
 }
 
 .RankingPaises {
