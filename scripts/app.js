@@ -12,6 +12,7 @@ const oceania = document.getElementById("oceania")
 const americaNort = document.getElementById("americaNort") 
 const americaNort2 = document.getElementById("americaNort2")
 const americaNort3 = document.getElementById("americaNort3")
+const americaNort8 = document.getElementById("americaNort8")
 const modalInfo9 = document.getElementById("ModalInfo9")
 const modalInfo2 = document.getElementById("ModalInfo2")
 const modalInfo3 = document.getElementById("ModalInfo3")
@@ -20,10 +21,14 @@ const modalInfo5 = document.getElementById("ModalInfo5")
 const modalInfo6 = document.getElementById("ModalInfo6")
 const modalInfo7 = document.getElementById("ModalInfo7")
 const modalInfo8 = document.getElementById("ModalInfo8")
-
-
+const americaNort9 = document.getElementById("americaNort9")
+const americaNort10 = document.getElementById("americaNort10")
+const oceania2 = document.getElementById("oceania2")
+const oceania3 = document.getElementById("oceania3")
+const europa2 = document.getElementById("europa2")
+const europa3 = document.getElementById("europa3")
 //btn close
-// const closeModal = document.getElementById("closeModal")
+// const closeModal = documnt.getElementById("closeModal")
 // closeModal.addEventListener("click", closeModalPais)
 // const closeModalPais = () => {
 //     modalInfo2.classList.add("ModalInfo2")
@@ -64,12 +69,16 @@ function select() {
 
 europa.addEventListener('click', select2)
 function select2() {
+    europa3.setAttribute("fill","green")
+    europa2.setAttribute("fill","green")
     europa.setAttribute("fill", "green")
     modalInfo4.classList.add("ModalInfoVisible4")
 }
 
 oceania.addEventListener('click', select3)
 function select3() {
+    oceania3.setAttribute("fill","yellow")
+    oceania2.setAttribute("fill","yellow")
     oceania.setAttribute("fill", "yellow")
     modalInfo5.classList.add("ModalInfoVisible5")
 }
@@ -81,6 +90,9 @@ function select3() {
 
 americaNort.addEventListener('click', select5)
 function select5() {
+    americaNort10.setAttribute("fill","blue")
+    americaNort9.setAttribute("fill","blue")
+    americaNort8.setAttribute("fill","blue")
     americaNort3.setAttribute("fill" , "blue")
     americaNort2.setAttribute("fill", "blue")
     americaNort.setAttribute("fill", "blue")
