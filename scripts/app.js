@@ -1,11 +1,4 @@
-const mexico = document.getElementById("mexico")
-const colombia = document.getElementById("colombia")
-const argentina = document.getElementById("argentina")
-const españa = document.getElementById("spain")
-const brazil = document.getElementById("brazil")
-const russia = document.getElementById("russia")
-const australia = document.getElementById("australia")
-const usa = document.getElementById("usa")
+
 const americasur = document.getElementById("americasur")
 const europa = document.getElementById("europa")
 const oceania = document.getElementById("oceania")
@@ -31,15 +24,10 @@ const closemodal = document.getElementById("closemodal")
 const closemodal2 = document.getElementById("closemodal2")
 const closemodal3 = document.getElementById("closemodal3")
 const closemodal4 = document.getElementById("closemodal4")
-//btn close
-// const closeModal = documnt.getElementById("closeModal")
-// closeModal.addEventListener("click", closeModalPais)
-// const closeModalPais = () => {
-//     modalInfo2.classList.add("ModalInfo2")
-// }
-//api paises
+
+
 const apisPaises = [
-    // [{ id: 0, pais: "Argentina", titulo: "¿Qué pasa con el café en la Argentina?", descripcion: "El café no se produce en Argentina, ni pasará por ahora, porque el clima no lo permite, por eso es que la materia prima es 100% importada, no hay manera de reemplazarla, y los límites para importar ponen en riesgo a todas las cafeterías del país." }],
+    [{ id: 0, pais: "Argentina", titulo: "¿Qué pasa con el café en la Argentina?", descripcion: "El café no se produce en Argentina, ni pasará por ahora, porque el clima no lo permite, por eso es que la materia prima es 100% importada, no hay manera de reemplazarla, y los límites para importar ponen en riesgo a todas las cafeterías del país." }],
     [{ id: 1, pais: "Colombia", titulo: "¿Qué importancia tuvo el café en Colombia?", descripcion: "Para el año 91 el café representó el 5.3% del PIB total y 23.4% del PIB agropecuario, con una actividad productiva que ocupa 1.15 millones de hectáreas. (Cuadro del café en la economía colombiana). El café ha sido la principal fuente de divisas para el país." }],
     [{ id: 2, pais: "Usa", titulo: "¿¿Qué importancia tiene el café en Estados unidos?", descripcion: "- EEUU es el principal consumidor de café a nivel mundial, el primer importador de café oro y el 2do de café tostado, asimismo es el 1er destino para las exportaciones de café de Costa Rica" }],
     [{ id: 3, pais: "España", titulo: "¿Cómo es el consumo de café en España?", descripcion: "Los fines de semana la media baja, situándose en 2,7 tazas al día. En cuanto al número de cafés por persona y día fuera de casa, el 55% de los que consumen café toma 1 o 2 tazas, mientras que el 24% toma entre 3 y 4 tazas" }],
@@ -49,20 +37,6 @@ const apisPaises = [
     [{ id: 7, pais: "Argentina", titulo: "¿Qué pasa con el café en la Argentina?", descripcion: "El café no se produce en Argentina, ni pasará por ahora, porque el clima no lo permite, por eso es que la materia prima es 100% importada, no hay manera de reemplazarla, y los límites para importar ponen en riesgo a todas las cafeterías del país." }],
     [{ id: 8, pais: "Brasil", titulo: "¿Qué importancia tuvo el café en Brasil?", descripcion: "Brasil es el principal exportador de café del mundo, con casi el doble de exportaciones que el segundo productor, Vietnam. Con un impacto tan devastador en la producción de café de Brasil este año, las repercusiones se sentirán en todo el mundo, extendiéndose probablemente hasta 2023 y más allá." }]
 ]
-// mexico.addEventListener('click', seleccion8)
-// function seleccion8() {
-//     mexico.setAttribute("fill", "red")
-//     modalInfo2.classList.add("ModalInfoVisible2")
-//     const pais = document.createElement("h2")
-//         pais.textContent = apisPaises[3][0].pais
-//     modalInfo2.appendChild(pais)
-//     const question = document.createElement("h3")
-//         question.textContent = apisPaises[3][0].titulo
-//     modalInfo2.appendChild(question)
-//     const descripcion = document.createElement("p")
-//         descripcion.textContent = apisPaises[3][0].descripcion
-//     modalInfo2.appendChild(descripcion)
-// }
 
 americasur.addEventListener('click', select)
 function select() {
@@ -87,10 +61,6 @@ function select3() {
     modalInfo5.classList.add("ModalInfoVisible5")
 }
 
-// africa.addEventListener('click' , select4)
-// function select4() {
-//     africa.setAttribute("fill" , "yellow")
-// }
 
 americaNort.addEventListener('click', select5)
 function select5() {
@@ -134,75 +104,6 @@ function selected4() {
     modalInfo2.classList.add("modalinvisible4")
 }
 
-// brazil.addEventListener('click', seleccion5)
-// function seleccion5() {
-//     brazil.setAttribute("fill", "green")
-//     modalInfo2.classList.add("ModalInfoVisible2")
-//     const pais = document.createElement("h2")
-//         pais.textContent = apisPaises[7][0].pais
-//     modalInfo2.appendChild(pais)
-//     const question = document.createElement("h3")
-//         question.textContent = apisPaises[7][0].titulo
-//     modalInfo2.appendChild(question)
-//     const descripcion = document.createElement("p")
-//         descripcion.textContent = apisPaises[7][0].descripcion
-//     modalInfo2.appendChild(descripcion)
-// }
-
-// españa.addEventListener('click', selecction4)
-// function selecction4() {
-//     españa.setAttribute("fill", "yellow")
-//     modalInfo2.classList.add("ModalInfoVisible2")
-//     const pais = document.createElement("h2")
-//         pais.textContent = apisPaises[2][0].pais
-//     modalInfo2.appendChild(pais)
-//     const question = document.createElement("h3")
-//         question.textContent = apisPaises[2][0].titulo
-//     modalInfo2.appendChild(question)
-//     const descripcion = document.createElement("p")
-//         descripcion.textContent = apisPaises[2][0].descripcion
-//     modalInfo2.appendChild(descripcion)
-// }
-
-
-// // C O L O M B I A
-
-// colombia.addEventListener('click', selecction3)
-// function selecction3() {
-//     colombia.setAttribute("fill", "orange")
-//     modalInfo2.classList.add("ModalInfoVisible2")
-
-//     const pais = document.createElement("h2")
-//         pais.textContent = apisPaises[0][0].pais
-//     modalInfo2.appendChild(pais)
-//     const question = document.createElement("h3")
-//         question.textContent = apisPaises[0][0].titulo
-//     modalInfo2.appendChild(question)
-//     const descripcion = document.createElement("p")
-//         descripcion.textContent = apisPaises[0][0].descripcion
-//     modalInfo2.appendChild(descripcion)
-
-
-
-// }
-
-
-// function createCards(apisPaises) {
-//     const { pais, titulo, id, descripcion } = apisPaises; // DESTRUCTURY
-
-//     let contentCard = document.createElement('h3');
-//     contentCard.textContent = titulo;
-//     //   contentCard.classList.add('titulo');
-
-//     let nameProduct = document.createElement('h2');
-//     nameProduct.textContent = pais;
-//     //   nameProduct.classList.add('pais');
-
-//     let priceProduct = document.createElement('p');
-//     //   priceProduct.classList.add('descripcion');
-//     priceProduct.textContent = descripcion;
-// }
-
 // A R G E N T I N A
 // argentina.addEventListener('click', selecction2)
 // function selecction2() {
@@ -217,61 +118,5 @@ function selected4() {
 //     modalInfo2.appendChild(question)
 //     const descripcion = document.createElement("p")
 //         descripcion.textContent = apisPaises[6][0].descripcion
-//     modalInfo2.appendChild(descripcion)
-// }
-
-
-
-// //  R U S I A
-// russia.addEventListener('click', selection6)
-// function selection6() {
-//     russia.setAttribute("fill", "purple")
-//     modalInfo2.classList.add("ModalInfoVisible2")
-
-
-//     const pais = document.createElement("h2")
-//         pais.textContent = apisPaises[5][0].pais
-//     modalInfo2.appendChild(pais)
-//     const question = document.createElement("h3")
-//         question.textContent = apisPaises[5][0].titulo
-//     modalInfo2.appendChild(question)
-//     const descripcion = document.createElement("p")
-//         descripcion.textContent = apisPaises[5][0].descripcion
-//     modalInfo2.appendChild(descripcion)
-
-// }
-
-// // a u s t r a l i a
-// australia.addEventListener('click', selection7)
-// function selection7() {
-//     australia.setAttribute("fill", "brown")
-//     modalInfo2.classList.add("ModalInfoVisible2")
-
-
-//     const pais = document.createElement("h2")
-//         pais.textContent = apisPaises[4][0].pais
-//     modalInfo2.appendChild(pais)
-//     const question = document.createElement("h3")
-//         question.textContent = apisPaises[4][0].titulo
-//     modalInfo2.appendChild(question)
-//     const descripcion = document.createElement("p")
-//         descripcion.textContent = apisPaises[4][0].descripcion
-//     modalInfo2.appendChild(descripcion)
-// }
-
-// // U S A
-// usa.addEventListener('click', selection9)
-// function selection9() {
-//     usa.setAttribute("fill", "pink")
-//     modalInfo2.classList.add("ModalInfoVisible2")
-
-//     const pais = document.createElement("h2")
-//         pais.textContent = apisPaises[1][0].pais
-//     modalInfo2.appendChild(pais)
-//     const question = document.createElement("h3")
-//         question.textContent = apisPaises[1][0].titulo
-//     modalInfo2.appendChild(question)
-//     const descripcion = document.createElement("p")
-//         descripcion.textContent = apisPaises[1][0].descripcion
 //     modalInfo2.appendChild(descripcion)
 // }

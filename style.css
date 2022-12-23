@@ -107,6 +107,34 @@
     transform: skewX(-45deg) scale(1, 1);
 }
 
+th{
+    background-color: black;
+    color: white;
+}
+
+caption{
+    padding-top: 30px;
+    font-style: italic;
+    color: white;
+    
+}
+
+table{
+    caption-side: bottom;
+    border-collapse: collapse;
+    background-image: linear-gradient(to left ,blue , white);
+    box-shadow: 5px 5px 5px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td , th {
+    border: 2px  solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .contButton {
     display: flex;
@@ -429,5 +457,11 @@
 
 .contPather{
     padding: 50px;
-    background-image:  linear-gradient(rgba(27, 27, 27, 0.75), rgba(0, 0, 0, 0.855)), url(./images//cafefondo.jpg);
+    
 }
+
+.body{
+    background-size: cover;
+    background-image:  linear-gradient(rgba(27, 27, 27, 0.95), rgba(0, 0, 0, 0.855)), url(./images//cafefondo2.jpg);
+}
+
