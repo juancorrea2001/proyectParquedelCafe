@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+p{
+    font-family: 'Amatic SC';
+    font-size: 54px;
+}
+.textoBlanco{
+    color: white;
+}
 
 .modalinvisible{
     display: none;
@@ -20,7 +27,7 @@
 }
 .contMapPaises .contModalClick{
     width: 0;
-    height: 597px;
+    height: 730px;
     right: 0;
     /* background-color: rgb(255, 0, 0); */
     background-image: linear-gradient(rgba(27, 27, 27, 0.85), rgba(0, 0, 0, 0.755)), url('./images/cafe3.jpg');    background-size: cover;
@@ -37,9 +44,36 @@
     color: white;
     cursor: pointer;
 }
+.contModalInvUsa{
+    width: 0;
+    height: 730px;
+    right: 0;
+    /* background-color: rgb(255, 0, 0); */
+    background-image: linear-gradient(rgba(27, 27, 27, 0.85), rgba(0, 0, 0, 0.755)), url('./images/cafe3.jpg');    background-size: cover;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    background-position: center;
+    position: absolute;
+}
 
-.Usamodalvisible{
+/* modal usa */
+.contModalclickUsa{
     width: 420px;   
     background-image: linear-gradient(rgba(27, 27, 27, 0.85), rgba(0, 0, 0, 0.755)), url('./images/cafe3.jpg');    background-size: cover;
     transition: 0.8s all;
+}
+
+.contModalclickUsa span{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/*prueba*/
+.colorraro{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 30px;
 }

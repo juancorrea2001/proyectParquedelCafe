@@ -173,6 +173,23 @@ let contModalClick = document.getElementById('contModalClick')
 let closemodalCoffe = document.getElementById('closemodalCoffe')
 let change = 0
 
+
+const contModalclickUsa = document.getElementById("contModalclickUsa")
+let closemodalusa = document.getElementById("closemodalusa")
+let changeUsa = 0
+
+
+const apiContinents = [
+    [{pais1: "Colombia", pais2: "Argentina", pais3: "Brasil", pais4: "uruguay"}],
+    [{pais1: "Canada", pais2: "estados unidos", pais3: "mexico"}],
+    [{pais1: "Rusia", pais2: "España", pais3: "francia", pais4: "alemania"}],
+    [{pais1: "Australia", pais2: "New guinea"}],
+    [{pais1: "Algeria", pais2: "South africa", pais3: "mali", pais4: "egipto"}],
+    [{pais1: "China", pais2: "India", pais3: "corea del sur", pais4: "malacia"}]
+]
+
+const divprueba = document.getElementById("divprueba")
+
 //funciona
 colombia.addEventListener('click', selections)
 function selections() {
@@ -194,6 +211,29 @@ function selections() {
     change = 1
     if (change == 1) {
         contModalClick.classList.add("contModalClickVisible")
+        const paisesR = document.createElement("h2")
+        paisesR.classList.add("textoBlanco")
+        paisesR.textContent = apiContinents[0][0].pais1 + " "
+
+        divprueba.appendChild(paisesR)
+
+        const paisesR1 = document.createElement("p")
+        paisesR1.classList.add("textoBlanco")
+        paisesR1.textContent = apiContinents[0][0].pais2 + " "
+
+        const paisesR2 = document.createElement("p")
+        paisesR2.classList.add("textoBlanco")
+        paisesR2.textContent = apiContinents[0][0].pais3 + " "
+
+        const paisesR3 = document.createElement("p")
+        paisesR3.classList.add("textoBlanco")
+        paisesR3.textContent = apiContinents[0][0].pais4 + " "
+        
+        
+        contModalClick.appendChild(divprueba)
+        contModalClick.appendChild(paisesR1)
+        contModalClick.appendChild(paisesR2)
+        contModalClick.appendChild(paisesR3)
     }
 }
 closemodalCoffe.addEventListener('click', closemodalto)
@@ -236,8 +276,18 @@ function selecc() {
     prescott.setAttribute("fill","yellow")
     vancouver.setAttribute("fill","yellow")
     bylot.setAttribute("fill","yellow")
+    changeUsa = 1 
+    if (changeUsa == 1) {
+        contModalclickUsa.classList.add("contModalclickUsa")
+    }
 }
-
+closemodalusa.addEventListener('click', closemodalUsa)
+function closemodalUsa() {
+    changeUsa = 0
+    if (changeUsa == 0) {
+        contModalclickUsa.classList.add("modalinvisible")
+    }
+}
 
 spain.addEventListener('click', selection23)
 function selection23() {
