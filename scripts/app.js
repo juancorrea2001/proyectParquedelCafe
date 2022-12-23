@@ -1,11 +1,4 @@
-const mexico = document.getElementById("mexico")
-const colombia = document.getElementById("colombia")
-const argentina = document.getElementById("argentina")
-const españa = document.getElementById("spain")
-const brazil = document.getElementById("brazil")
-const russia = document.getElementById("russia")
-const australia = document.getElementById("australia")
-const usa = document.getElementById("usa")
+
 const americasur = document.getElementById("americasur")
 const europa = document.getElementById("europa")
 const oceania = document.getElementById("oceania")
