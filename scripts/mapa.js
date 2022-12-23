@@ -168,6 +168,8 @@ const moldova = document.getElementById("moldova")
 const albania = document.getElementById("albania")
 const rwanda = document.getElementById("rwanda")
 
+//Modal
+const contModalClick = document.getElementById('contModalClick')
 
 colombia.addEventListener('click', selections)
 function selections() {
@@ -186,6 +188,7 @@ function selections() {
     brazil.setAttribute("fill","red")
     argentina.setAttribute("fill" ,"red")
     colombia.setAttribute("fill" ,"red")
+    contModalClick.classList.add("contModalClickVisible")
 }
 
 
