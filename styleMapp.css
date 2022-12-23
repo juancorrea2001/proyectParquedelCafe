@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+.modalinvisible{
+    display: none;
+}
+
 .contMapPaises{
     width: 100%;
     height: auto;
@@ -24,6 +29,16 @@
     position: absolute;
 }
 .contMapPaises .contModalClickVisible{
+    width: 420px;   
+    background-image: linear-gradient(rgba(27, 27, 27, 0.85), rgba(0, 0, 0, 0.755)), url('./images/cafe3.jpg');    background-size: cover;
+    transition: 0.8s all;
+}
+.contModalClick span{
+    color: white;
+    cursor: pointer;
+}
+
+.Usamodalvisible{
     width: 420px;   
     background-image: linear-gradient(rgba(27, 27, 27, 0.85), rgba(0, 0, 0, 0.755)), url('./images/cafe3.jpg');    background-size: cover;
     transition: 0.8s all;

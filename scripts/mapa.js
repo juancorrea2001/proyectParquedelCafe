@@ -169,8 +169,11 @@ const albania = document.getElementById("albania")
 const rwanda = document.getElementById("rwanda")
 
 //Modal
-const contModalClick = document.getElementById('contModalClick')
+let contModalClick = document.getElementById('contModalClick')
+let closemodalCoffe = document.getElementById('closemodalCoffe')
+let change = 0
 
+//funciona
 colombia.addEventListener('click', selections)
 function selections() {
     tierra_del_fuego_argentina.setAttribute("fill","red")
@@ -188,7 +191,17 @@ function selections() {
     brazil.setAttribute("fill","red")
     argentina.setAttribute("fill" ,"red")
     colombia.setAttribute("fill" ,"red")
-    contModalClick.classList.add("contModalClickVisible")
+    change = 1
+    if (change == 1) {
+        contModalClick.classList.add("contModalClickVisible")
+    }
+}
+closemodalCoffe.addEventListener('click', closemodalto)
+function closemodalto() {
+    change = 0
+    if (change == 0) {
+        contModalClick.classList.add("modalinvisible")
+    }
 }
 
 
