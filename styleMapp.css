@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contMapPaises{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contMapPaises svg{
+    width: 100%;
+    height: 100vh;
+}
