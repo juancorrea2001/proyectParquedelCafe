@@ -152,13 +152,27 @@ const emirates = document.getElementById("emirates")
 const slovakia = document.getElementById("slovakia")
 const switzerland= document.getElementById("switzerland")
 const bosnia = document.getElementById("bosnia")
-
-
+const togo = document.getElementById("togo")
+const swaziland = document.getElementById("swaziland")
+const tierra_del_fuego_chile = document.getElementById("tierra del fuego chile")
+const tierra_del_fuego_argentina = document.getElementById("tierra del fuego argentina")
+const alexander2 = document.getElementById("alexander")
+const thurston = document.getElementById("thurston")
+const smyley = document.getElementById("smyley")
+const vancouver = document.getElementById("vancouver")
+const bylot = document.getElementById("bylot")
+const amund_ringnes = document.getElementById("amund ringnes")
+const malaysia = document.getElementById("malaysia")
+const israel = document.getElementById("israel")
+const moldova = document.getElementById("moldova")
+const albania = document.getElementById("albania")
+const rwanda = document.getElementById("rwanda")
 
 
 colombia.addEventListener('click', selections)
 function selections() {
-    
+    tierra_del_fuego_argentina.setAttribute("fill","red")
+    tierra_del_fuego_chile.setAttribute("fill","red")
     suriname.setAttribute("fill","red")
     guyana.setAttribute("fill","red")
     guyane.setAttribute("fill","red")
@@ -177,6 +191,7 @@ function selections() {
 
 usa.addEventListener('click', selecc)
 function selecc() {
+    amund_ringnes.setAttribute("fill","yellow")
     bathurst.setAttribute("fill","yellow")
     ellef_ringnes.setAttribute("fill","yellow")
     prince_patrick.setAttribute("fill","yellow")
@@ -203,11 +218,15 @@ function selecc() {
     honduras.setAttribute("fill","yellow")
     guatemala.setAttribute("fill","yellow")
     prescott.setAttribute("fill","yellow")
+    vancouver.setAttribute("fill","yellow")
+    bylot.setAttribute("fill","yellow")
 }
 
 
 spain.addEventListener('click', selection23)
 function selection23() {
+    albania.setAttribute("fill","blue")
+    moldova.setAttribute("fill","blue")
     bosnia.setAttribute("fill","blue")
     switzerland.setAttribute("fill","blue")
     slovakia.setAttribute("fill","blue")
@@ -253,8 +272,11 @@ function selection23() {
 
 antarctica.addEventListener('click', selectionan)
 function selectionan() {
+    smyley.setAttribute("fill","green")
+    alexander2.setAttribute("fill","green")
     peninsula.setAttribute("fill","green")
     antarctica.setAttribute("fill","green")
+    thurston.setAttribute("fill","green")
 }
 
 australia.addEventListener('click', selectaust)
@@ -273,7 +295,11 @@ function selectaust() {
 
 
 algeria.addEventListener('click',slectafri)
-function slectafri() {
+function slectafri() { 
+    rwanda.setAttribute("fill","purple")
+    israel.setAttribute("fill","purple")
+    swaziland.setAttribute("fill","purple")
+    togo.setAttribute("fill","purple")
     lesotho.setAttribute("fill","purple")
     sierra.setAttribute("fill","purple")
     eritrea.setAttribute("fill","purple")
@@ -319,7 +345,7 @@ function slectafri() {
 
 china.addEventListener('click', selectedf)
 function selectedf() {
-
+    malaysia.setAttribute("fill","orange")
     cambodia.setAttribute("fill","orange")
     bangladesh.setAttribute("fill","orange")
     vietnam.setAttribute("fill","orange")
