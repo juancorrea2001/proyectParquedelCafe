@@ -211,11 +211,11 @@ function selections() {
     change = 1
     if (change == 1) {
         contModalClick.classList.add("contModalClickVisible")
-        const paisesR = document.createElement("h2")
+        const paisesR = document.createElement("p")
         paisesR.classList.add("textoBlanco")
         paisesR.textContent = apiContinents[0][0].pais1 + " "
 
-        divprueba.appendChild(paisesR)
+        // divprueba.appendChild(paisesR)
 
         const paisesR1 = document.createElement("p")
         paisesR1.classList.add("textoBlanco")
@@ -230,7 +230,7 @@ function selections() {
         paisesR3.textContent = apiContinents[0][0].pais4 + " "
         
         
-        contModalClick.appendChild(divprueba)
+        contModalClick.appendChild(paisesR)
         contModalClick.appendChild(paisesR1)
         contModalClick.appendChild(paisesR2)
         contModalClick.appendChild(paisesR3)
